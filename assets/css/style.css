@@ -26,7 +26,6 @@ li {
 .header-content {
     text-align: center;
     font-family: 'Pacifico', cursive;
-    border: 1px solid white;
     margin: 265px;
     padding: 20px;
 
@@ -35,7 +34,6 @@ li {
 #page3 {
     margin: 30px;
     padding: 20px;
-    border: 1px solid gray;
     text-align: center;
 }
 
@@ -43,4 +41,18 @@ address {
     color: white;
     font-family: 'Pacifico', cursive;
     font-size: 50px;
+}
+
+#contact-row {
+    text-align: center
+}
+
+.card {
+    height: 394px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.aligner {
+    margin: auto;
 }
