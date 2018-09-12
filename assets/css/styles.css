@@ -1,0 +1,224 @@
+body {
+    color: rgb(255, 255, 255);
+    background:rgba(0,0,0,1) url(../images/desktopcomputer.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg {
+    background: rgba(0, 0, 0, .65);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    content: " ";
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: rgb(122, 109, 109);
+    overflow: visible;
+    float: right;
+}
+
+#navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 27px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: rgb(230, 122, 122);
+    color: white;
+}
+
+#navbar a.active {
+    background-color: rgb(244, 83, 94);
+    color: white;
+}
+
+#homepage {
+    text-align: center;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    margin: 55px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 85px;
+    text-align: center;
+    color: black;
+}
+
+#intro {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+#button {
+    background-color: rgb(244, 83, 94);
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 75px;
+}
+
+
+
+
+
+#contactpage {
+   height: 1000px; 
+   display: table;
+   width: 100%;
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+   margin: auto;
+   width: 50%;
+}
+
+#contactform {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+label[for=fname], [for=lname], [for=email], [for=message] {
+    color: black;
+}
+
+input[placeholder] {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+form {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin: 10px 0;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(244, 83, 94);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: rgb(208, 68, 77);
+}
+
+
+
+#aboutpage {
+    height: 1000px; 
+    display: table;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    color: black;
+ }
+
+
+
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.slider {
+    /* line them up horizontally */
+    display: flex;
+  
+    /* allow for scrolling */
+    overflow-x: auto;
+  
+    /* make it smooth on iOS */
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider > div {
+    /* make sure the width is honored */
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+  }
