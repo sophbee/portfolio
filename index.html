@@ -4,31 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Sophia Butterworth Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+
+    <title>Sophia Butterworth</title>
 </head>
 <body>
-    <div class="bg">
+    <div class="container-fluid">
 
-        <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Sophia Butterworth</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <div id="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
+        </div> -->
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Hello, I'm Sophia!</h1>
+                <hr class="my-4">
+                <p>I'm a curious full stack web developer living in Richmond, VA. I recently graduated from the University of Richmond's Coding Bootcamp where I learned the <em>MERN</em> stack. Currently and forever, I am seeking to grow my knowledge database and write better code.</p>
+                <a class="btn btn-primary btn-lg" href="#portfolio" role="button">View my work</a>
+            </div>
         </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <div id="homepage">
+        <!-- <div id="homepage">
             <a id="home" class="smooth"></a>
                 <h1>HELLO! I'M SOPHIA.</h1>
                 <h4 id="intro">I'm a curious full stack web developer living in Richmond, VA. I recently graduated from the University of Richmond's Coding Bootcamp where I learned the <em>MERN</em> stack. Currently and forever, I am seeking to grow my knowledge database and write better code.</h4>
@@ -36,6 +58,141 @@
                 <a href="#portfolio"><button id="button" type="button">
                     VIEW MY WORK
                 </button></a>
+        </div> -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">The Psychic Game</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src="assets/images/Psychic.png" alt="psychic-game">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Adventure Time Princess Collector</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src="assets/images/AdventureTime.png" alt="adventure-time">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Memphis Trivia Game</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src="assets/images/MemphisTrivia.png" alt="memphis-trivia">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">GifTastic Animals!</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src="assets/images/Giftastic.png" alt="giftastic">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Train Time</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">LIRI Bot: A Node App</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Bamazon</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Friend Finder</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Bobby's Burgers</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Jam Start!</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">Settle In</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <h5 class="card-header">MaraGoal</h5>
+                        <div class="card-body">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="portfoliopage">
@@ -283,5 +440,9 @@
         </div>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
